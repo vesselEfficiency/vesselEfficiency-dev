@@ -5139,10 +5139,10 @@ the result as output signal.
   end Icons;
   annotation(uses(
       VesselEfficiency26(version="1"),
-      Modelica_DeviceDrivers(version="1.2"),
       Modelica(version="3.2.2"),
       Modelon(version="2.4"),
-      VehicleDynamics(version="2.3")),                                            Icon(coordinateSystem(extent = {{-100, -100}, {100, 100}}, preserveAspectRatio = false, initialScale = 0.1, grid = {2, 2})),
+      VehicleDynamics(version="2.3"),
+      Modelica_DeviceDrivers(version="1.4.4")),                                   Icon(coordinateSystem(extent = {{-100, -100}, {100, 100}}, preserveAspectRatio = false, initialScale = 0.1, grid = {2, 2})),
     version="3",
     conversion(noneFromVersion="", noneFromVersion="1",
       noneFromVersion="2"),
